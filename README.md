@@ -69,12 +69,14 @@ EmployeeMgm
 ### Steps
 
 1. **Clone the repository**
+
    git clone https://github.com/your-username/EmployeeMgm.git
 
-2. **Create MySQL Database**
+3. **Create MySQL Database**
+
     CREATE DATABASE employee_mgmt;
 
-3. **Configure application.properties**
+4. **Configure application.properties**
 
 spring.application.name=EmployeeMgm
 
@@ -91,6 +93,7 @@ spring.jpa.show-sql: true
 In Eclipse: Right-click on project → Run As → Spring Boot App
 
 **Or using terminal:**
+
 mvn spring-boot:run
 
 
@@ -100,11 +103,14 @@ http://localhost:8080/
 
 
 **📜 License**
+
 This project is open-source and available under the MIT License.
 
 **🤝 Contributions**
+
 Feel free to fork, raise issues, and submit pull requests to enhance the project.
 
 
 👤 Author
+
 **Sharanya Nemade**
